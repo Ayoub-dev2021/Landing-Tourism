@@ -1,0 +1,5 @@
+- Use display flex in Nav Bar
+- A way to change a word color inside the pargraph (No using spann or any other tags)
+- use flex and grid system...responisve issue
+- Cursor:pointer; stop working.
+

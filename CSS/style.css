@@ -1,0 +1,957 @@
+
+
+button:hover {
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+}
+input[type=button]:focus {
+    outline: none;
+}
+
+.siteContainer{
+
+    box-sizing: border-box;
+    font-family: Yu Gothic UI;
+}
+
+.headerContainer {
+    background: black;
+    height: 80px;
+    
+}
+.newHeader {
+    background: black;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+
+nav {
+    
+    height: 100%;
+    margin: auto;
+    
+}
+header ul {
+    width: 60%;
+    height: 100%;
+    list-style: none;
+    text-align: end;
+    float: right;
+}
+
+header li {
+    position: relative;
+    text-align: center;
+    width: 13%;
+    min-width: 82px;
+    display: inline-block;
+    margin: 0%;
+    height: 100%;
+    text-transform: uppercase;  
+    
+}   
+
+header li:hover {
+    cursor: pointer;
+    background: #fcdd44;
+    color: black;
+}
+
+
+header li a {
+    position: absolute;
+    font-size: 15px;
+    pointer-events: none;
+    bottom: 0;
+    width: 100%;
+    outline: none;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: #838383;
+}
+
+.logo {
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fcdd44;
+    line-height: 80px;
+
+}
+
+.logo:hover {
+cursor: pointer;
+}
+
+
+
+
+/*Styling Section one : "Baner" */
+
+.BanerSection {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    background-image: url(../Images/banner-3.jpg);
+    background-position: center;
+    height: 600px;
+    z-index: -6;
+}
+.banerContent{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
+}
+.title {
+    color: white;
+    font-size: 5rem;
+}
+.word {
+    color: white;
+    display: block;
+    font-size: 2rem;
+}
+.bannedWord {
+    color: #fcdd44;
+}
+
+.learnButton {
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    background: rgba(252,221,68,0.4);;
+    margin-top: 50px;
+    width: 200px;
+    height: 60px;
+    border: 1px solid #fcdd44;
+    outline: none;
+
+}
+
+.learnButton:focus {
+    outline: none;
+   
+}
+.learnButton:hover {
+    cursor: pointer;
+}
+
+
+/* Styling Section two "CheckNow"  */
+
+.CheckNow {
+    position: relative;
+    height: 500px;
+    background: #e5e5e5;
+    z-index: 1;
+}
+
+
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: -70px;
+    left:50%;
+    transform: translate(-50%);
+    
+    
+}
+
+.priceCards{
+   
+   margin: 0;
+   padding: 8px;
+   height: auto;
+   width: 350px
+   
+   
+}
+
+
+.fromTitles {
+    height: 13%;
+}
+.searchfrom   {
+    background: white;
+    height: 86%;
+    min-height: 340px;
+}
+
+.searchTitle {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #f3c70f;
+    text-transform: uppercase;
+}
+
+.searchTitle:hover {
+    background: #f3c70f;
+    cursor: pointer;
+}
+
+
+.dataSelect input {
+   width: 90%;
+   height: 35px;
+   margin: 15px;
+}
+
+.allInput {
+    
+    padding-top:40px;
+   height: 90%;
+    background: white;
+    
+}
+
+.formEnd {
+    
+    height: 20%;
+    background: #f3c70f;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -ms-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+ 
+  
+}
+
+.formEnd input {
+    background: #f5d338;
+    box-shadow: 0px 0px 2px 0.1px gray;
+    border: none;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+}
+
+            /********* Shawdo effect *************/
+         
+                .divCorner::before, .divCorner::after {
+                    bottom: 15px;
+                    left: 20px;
+                    width: 50%;
+                    height: 20%;
+                    max-width: 300px;
+                    max-height: 100px;
+                    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+                    -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+
+                    transform: rotate(-3deg);
+                    -webkit-transform: rotate(-3deg);
+                    -moz-transform: rotate(-3deg);
+                    -ms-transform: rotate(-3deg);
+                    -o-transform: rotate(-3deg);
+                  
+                }
+                .divCorner::after {
+
+                    right: 10px;
+                    left: auto;
+                    transform: rotate(3deg);
+                    
+                    -webkit-transform: rotate(3deg);
+                    -moz-transform: rotate(3deg);
+                    -ms-transform: rotate(3deg);
+                    -o-transform: rotate(3deg);
+                   
+
+                }
+                .shadow-corner::after, .shadow-corner::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -2;
+                }
+         /********* Shawdo effect *************/
+
+
+
+.cardBody {
+    height: 90%;
+    
+}
+img {
+   width: 100%;
+   height: 100%;
+}
+
+.cardEnd {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;  
+    position: relative;
+    color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;    
+}
+
+.cardEnd .price {
+    margin-left: auto;
+}
+.firstCard {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;   
+    background: #21bb61;
+}
+.secondCard {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;   
+    background: #eb5f51;
+}
+
+
+/* styling section three: Places */
+
+.places {
+    background: #e5e5e5;
+    height: auto;
+}
+.theLine {
+    width: 90%;
+    margin:auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+   
+
+}
+
+.theLine hr {
+    width: 100%;
+    background: black;
+    
+}
+
+.theLine div {
+    width: 30%;
+  
+}
+
+.theLine span {
+    font-size: 40px;
+   font-weight: lighter;
+    color: #727272;
+    text-transform: uppercase;
+}
+
+
+  /*Styling Travel Cards*/
+    .placesCards {
+          width: 70%;
+           
+            
+        }
+ 
+    .travelCard {
+        text-transform: uppercase;
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+
+    .travelCard img {
+        width: 100%;
+        height: 100%;
+    }
+    .theImage {
+        
+        margin: auto;
+        height: 50%;  
+        width: 90%;  
+    }
+
+    .cardContent {
+        background: white;
+        height: 30%;
+        width: 90%; 
+        padding: 30px;
+        padding-bottom: 10px;
+        margin: auto;
+    }
+
+    .cardContent span {
+        color: #c7c7c7;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .theEnd {
+        background: white;
+        height: 50px;
+        width: 90%; 
+        margin: auto;
+        text-align: center;
+        line-height: 50px;
+
+    }
+    .theEnd div {
+         float: left;   
+        }
+    .theEnd div:nth-child(2) 
+    {
+        width: 60%;
+        
+        border: 1px solid #c7c7c7;
+        border-bottom: none;
+       
+
+    }
+    .theEnd div:nth-child(1),  .theEnd div:nth-child(3) 
+    {
+        width: 20%;
+        border-top: 1px solid #c7c7c7;
+    }
+
+
+    .finalText {
+        margin: auto;
+        margin-top: 50px;
+        width: 70%;
+        text-align: center;
+    }
+    .finalText p {
+        height: 100px;
+    }
+
+    /* Styling Section Four: Packages*/
+.theLineSec4 {
+    margin:80px auto;
+}
+    
+
+    .allPackages{
+        width: 70%;
+        
+    }
+
+    .package {
+        width: 40%;
+        height: auto;
+        margin-bottom: 40px;
+       
+    }
+    .packageImage {
+        height: 100%;
+        width: 40%;
+        float: left;
+        
+    }
+    .packageImage img{
+        width: 100%;
+        height: 100%;
+       
+    }
+
+    .contentBox {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+        position: relative;
+        width: 50%;
+        height: 100%;
+       
+        float: left;
+        border: 1px solid #c7c7c7;
+        border-left: none;
+    
+        
+    }
+
+    .packageContent {
+        height: 70%;
+    }
+    .packageEnd {
+        position: relative;
+        width: 100%;
+        height: 30%;
+        padding-top: 20px;  
+        text-align: center;
+       
+        
+    }
+
+    .iconsTable {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        border-top: 1px solid #c7c7c7;
+        line-height: 50px;
+        height: 50px;
+    }
+
+    .iconsTable div {
+        float: left;
+    }
+    .iconsTable div:nth-child(2) {
+        width: 60%;
+        border-right: 1px solid #c7c7c7;
+        border-left: 1px solid #c7c7c7;
+
+    }
+    .iconsTable div:nth-child(1), .iconsTable div:nth-child(3){
+        width: 20%;
+       
+    }
+    .contentBox p {
+       padding: 30px;
+    }
+
+    /* Styling Footer*/
+
+    .theFooter {
+
+        height: 50px;
+        text-align: center;
+        background:  black;
+        line-height: 50px;
+    }
+
+    .theFooter p {
+
+        text-transform: capitalize;
+        font-size: 15px;
+        color: white;
+    }
+
+    .theFooter span {
+        color: #ccb337;
+    }
+
+
+
+
+    /******** Start Media ********/
+
+    /*xSmall Screen*/
+    @media (max-width:575px) {
+        header li a {
+            font-size: 12px;
+        }
+
+        .logo {
+            font-size: 25px;
+        }
+
+               .banerContent .title {
+                     font-size: 4rem;
+
+                }
+                .banerContent .word {
+                    font-size: 1.5rem;
+                }
+
+                .learnButton {
+                    transform: scale(.9);
+                }
+
+                .CheckNow {
+                    position: relative;
+                    height: auto;
+                }
+
+                .cardsContainer {
+
+                    flex-direction: column;
+                    align-items: center;
+                    margin: auto;
+                    position: static  ;
+                    top: 0;
+                    left: 0;
+                    transform: translate(0);
+                    padding-bottom: 30px;
+
+                    
+                }
+
+                .hotelSearch {
+                    margin: 0;
+
+                }
+
+                .fromTitles {
+                    display: block;
+                    height: 70px;
+                }
+                .formEnd {
+                    height: 70px;
+                }
+
+                .priceCards {
+                  margin: 30px 0;
+                  display: block;
+                
+                }
+
+                .cardEnd {
+                    padding:25px;
+                }
+                .places {
+                    height: auto;
+                    }
+    
+               
+                    .theLine hr {
+                        width: 80%
+                    }
+    
+                    .theLine span {
+                        font-size: 20px;
+                    }
+    
+    
+                    .placesCards {
+                        width: 80%;
+                    }
+    
+                    .travelCard {
+                        margin-bottom: 30px;
+                        
+                    }
+    
+                    .finalText  {
+                        margin-top: 20px;
+                        width: 80%;
+                    }
+                    .finalText p {
+                       height: 150px;
+                      
+                    }
+
+                    .allPackages{
+                        width: 80%;
+                    }
+                    .theLineSec4 {
+                        margin:  50px auto;
+                    }
+                    
+                    .package{
+                        max-height: 250px;
+                    }
+                    .packageImage {
+                        width: 50%;
+                    }
+                    .packageContent p {
+                        padding: 20px;
+                    }
+    }
+
+
+    /*Small Screen*/
+    @media (min-width:576px) and (max-width:768px) {
+
+        
+        header li a {
+            font-size: 12px;
+        }
+
+        .logo {
+            font-size: 25px;
+        }
+
+               .banerContent .title {
+                     font-size: 4rem;
+
+                }
+                .banerContent .word {
+                    font-size: 1.5rem;
+                }
+
+                .learnButton {
+                    transform: scale(.9);
+                }
+
+                .CheckNow {
+                    position: relative;
+                    height: auto;
+                }
+
+                .cardsContainer {
+
+                    flex-direction: column;
+                    align-items: center;
+                    margin: auto;
+                    position: static  ;
+                    top: 0;
+                    left: 0;
+                    transform: translate(0);
+                    padding-bottom: 30px;
+
+                    
+                }
+
+                .hotelSearch {
+                    margin: 0;
+
+                }
+
+                .fromTitles {
+                    display: block;
+                    height: 70px;
+                }
+                .formEnd {
+                    height: 70px;
+                }
+
+                .priceCards {
+                  margin: 30px 0;
+                  display: block;
+                
+                }
+
+                .cardEnd {
+                    padding:25px;
+                }
+                .places {
+                    height: auto;
+                    }
+    
+               
+                    .theLine hr {
+                        width: 80%
+                    }
+    
+                    .theLine span {
+                        font-size: 20px;
+                    }
+    
+    
+                    .placesCards {
+                        width: 80%;
+                    }
+    
+                    .travelCard {
+                        margin-bottom: 30px;
+                        
+                    }
+    
+                    .finalText  {
+                        margin-top: 20px;
+                        width: 80%;
+                    }
+                    .finalText p {
+                       height: 150px;
+                      
+                    }
+
+                    .allPackages{
+                        width: 80%;
+                    }
+                    .theLineSec4 {
+                        margin:  50px auto;
+                    }
+                    
+                    .package{
+                        max-height: 250px;
+                    }
+                    .packageImage {
+                        width: 50%;
+                    }
+                    .packageContent p {
+                        padding: 20px;
+                    }
+
+                
+    }
+
+
+    /*Medium Screen*/
+    @media (min-width:769px) and (max-width:991px) {
+
+        header li a {
+            font-size: 12px;
+        }
+
+        .logo {
+            font-size: 25px;
+        }
+
+               .banerContent .title {
+                     font-size: 4rem;
+
+                }
+                .banerContent .word {
+                    font-size: 1.5rem;
+                }
+
+                .learnButton {
+                    transform: scale(.9);
+                }
+
+                .CheckNow {
+                    position: relative;
+                    height: auto;
+                }
+
+                .cardsContainer {
+
+                    flex-direction: column;
+                    align-items: center;
+                    margin: auto;
+                    position: static  ;
+                    top: 0;
+                    left: 0;
+                    transform: translate(0);
+                    padding-bottom: 30px;
+
+                    
+                }
+
+                .hotelSearch {
+                    margin: 0;
+
+                }
+
+                .fromTitles {
+                    display: block;
+                    height: 70px;
+                }
+                .formEnd {
+                    height: 70px;
+                }
+
+                .priceCards {
+                  margin: 30px 0;
+                  display: block;
+                
+                }
+
+                .cardEnd {
+                    padding:25px;
+                }
+
+                .places {
+                height: auto;
+                }
+
+           
+                .theLine hr {
+                    width: 80%
+                }
+
+                .theLine span {
+                    font-size: 30px;
+                }
+
+
+                .placesCards {
+                    width: auto;
+                }
+
+                .travelCard {
+                    margin-bottom: 30px;
+                }
+
+                .finalText  {
+                    margin-top: 20px;
+                    width: 80%;
+                }
+                .finalText p {
+                   height: 120px;
+                  
+                }
+
+                .theLineSec4 {
+                    margin:  50px auto;
+                }
+
+                .packageImage {
+                    width: 50%;
+                }
+    
+             
+    }
+
+
+    /*Larg Screen*/
+    @media (min-width:992px) and (max-width:1250px) {
+        
+        header li a {
+            font-size: 12px;
+        }
+
+        .logo {
+            font-size: 25px;
+        }
+
+                .banerContent .title {
+                    font-size: 4rem;
+
+                }
+                .banerContent .word {
+                    font-size: 1.5rem;
+                }
+
+                /* .learnButton {
+                    transform: scale(.9);
+                }  */
+
+
+                .cardsContainer {
+                    margin: auto;
+                    width: 100%;
+                }
+                .priceCards {
+                    transform: scale(.95)
+                  }
+
+                  .theLine hr {
+                    width: 80%
+                }
+                .placesCards {
+                    width: auto;
+                }
+
+                .theEnd div i {
+                    transform: scale(.90)
+                }
+                .finalText  {
+                    width: 80%;
+                }
+                .finalText p {
+                   height: 120px;
+                  
+                }
+
+                .allPackages {
+                    width: auto;
+                }
+  
+
+    }
+
+    @media (min-width:1251px) {
+
+
+    }

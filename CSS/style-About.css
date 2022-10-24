@@ -1,0 +1,198 @@
+.headerContainer {
+    background: black;
+    height: 80px;
+    
+}
+.newHeader {
+    background: black;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+
+nav {
+    
+    height: 100%;
+    margin: auto;
+    
+}
+header ul {
+    width: 60%;
+    height: 100%;
+    list-style: none;
+    text-align: end;
+    float: right;
+}
+
+header li {
+    position: relative;
+    text-align: center;
+    width: 13%;
+    min-width: 82px;
+    display: inline-block;
+    margin: 0%;
+    height: 100%;
+    text-transform: uppercase;  
+    
+}   
+
+header li:hover {
+    cursor: pointer;
+    background: #fcdd44;
+    color: black;
+}
+
+
+header li a {
+    position: absolute;
+    font-size: 15px;
+    pointer-events: none;
+    bottom: 0;
+    width: 100%;
+    outline: none;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: #838383;
+}
+
+.logo {
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fcdd44;
+    line-height: 80px;
+
+}
+
+.logo:hover {
+cursor: pointer;
+}
+
+
+/* Styling Baner About*/
+
+.banerImage {
+    position: relative;
+    background-image: url(../Images/banner-3.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banerContent {
+
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.banerTitle {
+    color: white;
+    font-size: 80px;
+
+}
+.banerTitle span {
+    color: #fcdd44;
+}
+
+.banerContent p {
+  
+    font-size: 30px;
+    color: white;
+}
+.learnMore {
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    background: rgba(252,221,68,0.4);;
+    margin-top: 50px;
+    width: 200px;
+    height: 60px;
+    border: 1px solid #fcdd44;
+    outline: none;
+    cursor: pointer;
+
+}
+.learnMore:focus {
+    outline: none;
+}
+
+
+/*Styling Section Two*/
+
+.welcomeToHoliday {
+    background: #e5e5e5;
+    height: 700px;
+    position: relative;
+}
+
+.holidayContent {
+    position: absolute;
+    left:50%;
+    top: -50px;
+    transform: translate(-50% , 0);
+    width: 60%;
+    background: white;
+    padding-bottom: 30px;
+}
+
+.holidayImage{
+    width: 50%;
+    height: 90%;
+    float: left;
+
+}
+.holidayImage img {
+    width: 90%;
+    height: 100%;
+    
+}
+
+.holidayContnet {
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+   
+}
+
+.holidayContnet h2 {
+    font-size: 30px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 20px;    
+}
+.holidayContnet p {
+    color: #c3c3c3; 
+}
+
+.holidayContnet p:first-of-type {
+    font-size: 18px;
+    color: #5f5f5f;
+    margin-bottom: 30px;
+
+}
+
+.socialMedia {
+        /* position: absolute; */
+        bottom: 0;
+        right: 0;
+        padding-right: 20px;
+        float: right;
+        /* padding-bottom: 20px; */
+        margin-top: 20px;
+
+}
+.socialMedia span {
+    margin-right: 15px;
+    color: #c3c3c3;
+}
+
